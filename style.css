@@ -1,0 +1,46 @@
+
+.fullbody{
+    background-color:pink;
+}
+.header-container{
+    background-color: white;
+    margin: 50px 20px 0px 20px;
+    
+}
+
+.logo{
+    width: 40px;
+    padding: 10px 0px 10px 10px;
+
+}
+.header-search{
+    display: flex;
+    justify-content: center;
+    margin-top:-70px;
+    
+    
+}
+
+.header-endpart{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -80px;
+}
+.notification{
+    width: 30px;
+    height:30px ;
+    padding: 5px;
+}
+.chat{
+    width: 30px;
+    height:30px ;
+    padding: 5px;
+}
+.profile{
+    width: 30px;
+    height:30px ;
+    padding: 5px;
+}
+.username{
+    padding: 10px;
+}

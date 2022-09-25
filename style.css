@@ -1,6 +1,11 @@
 
 .fullbody{
-    background-color:pink;
+    background-color:white;
+}
+.borderfull-body{
+    border: 2px solid black;
+    background-color: darkred;
+    margin: 20px;
 }
 .header-container{
     background-color: white;

@@ -1,4 +1,3 @@
-
 .parentmale-container{
     display: flex;
     flex-direction:row;
@@ -21,7 +20,7 @@
   padding: 5px;
 }
 .inner:hover{
-    background-color:red;
+    background-color:darkred;
     opacity:100;
 
 }
@@ -69,12 +68,12 @@ align-items: center;
     padding-left: 30px;
     padding-right: 20px;
     margin-right: 0px;
-    background-color: red;
+    background-color:darkred;
     height: 70px;
     width: 50px;
 }
 .link{
-    color:red;
+    color:darkred;
     margin: 30px;
 }
 .second-header-rating-number{
@@ -94,7 +93,7 @@ align-items: center;
     margin-left: 20px;
     padding-left: 30px;
     padding-right: 30px;
-    border: 2px solid wheat;
+    border: 2px solid aliceblue;
 
 }
 
@@ -118,19 +117,20 @@ align-items: center;
     border-radius: 50%;
    
 }
+
 .right-container-1{
-    /* background-color: blueviolet; */
-    width: 200px;
-    height: 300px;
+     /* background-color: blueviolet;  */
+    width: 130px;
+    height: 280px;
     margin: 30px 10px 15px 15px;
-    padding: 15px;
-    border: 2px solid wheat;
+    padding: 5px;
+    border: 2px solid aliceblue;
 }
 .right-container-1-section{
     display: flex;
     height: 100px;
-    width: 200px;
-    /* background-color:brown; */
+    width: 100px;
+    /* background-color:brown;  */
     flex-direction: row;
     align-items: center;
 }
@@ -138,7 +138,7 @@ align-items: center;
     display: flex;
     flex-direction: column;
     margin: 0px;
- /* background-color: brown; */
+ /* background-color: brown;  */
  padding: 10px;
 }
 .user5{
@@ -146,5 +146,66 @@ align-items: center;
     border-radius: 50%;
 }
 .right-rating{
-    color: red;
+    color: darkred;
+}  
+.right-container-2{
+    /* background-color: aqua; */
+    width: 130px;
+    height: 280px;
+    margin: 30px 10px 15px 15px;
+    padding: 5px;
+    border: 2px solid aliceblue;
+}
+.right-container-2-section{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    /* background-color:brown;  */
+    flex-direction: row;
+    align-items: center;
+}
+.right-container-1-section-name{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+ /* background-color: brown;  */
+ padding: 10px;
+}
+.user6{
+    height: 30px;
+    border-radius: 50%;
+}
+.left-rating{
+    color: darkred;
+}  
+.show-all{
+    /* background-color: cadetblue; */
+    margin: 40px;
+    padding: 5px;
+}
+.show{
+    color:darkred;
+    
+}
+.booking-title{
+    height: 200px;
+    width: 150px;
+    /* background-color: aqua; */
+    padding: 30px 5px 0px 0px;
+    margin:30px 0px 0px 10px;
+}
+.booking-button{
+    width: 150px;
+    /* background-color: brown; */
+    padding: 0px 0px 0px 50px;
+}
+#book{
+    color: white;
+    background-color:darkred;
+    padding: 20px;
+    margin: 10px 30px 30px 30px;
+}
+#book:hover{
+    background-color:black;
+    opacity: 100;
 }
